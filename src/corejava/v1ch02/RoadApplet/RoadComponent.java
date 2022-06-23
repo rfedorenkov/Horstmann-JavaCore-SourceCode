@@ -48,6 +48,7 @@ public class RoadComponent extends JComponent
       repaint();
    }
 
+   @Override
    public void paintComponent(Graphics g)
    {  
       if (buffer != null) 
