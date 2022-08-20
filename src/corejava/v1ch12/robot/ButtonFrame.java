@@ -1,4 +1,4 @@
-package corejava.v1ch11.button;
+package corejava.v1ch12.robot;
 
 import javax.swing.*;
 import java.awt.*;
@@ -27,9 +27,6 @@ public class ButtonFrame extends JFrame {
         buttonPanel.add(yellowButton);
         buttonPanel.add(blueButton);
         buttonPanel.add(redButton);
-
-        // добавить цвет по умолчанию
-        buttonPanel.setBackground(Color.YELLOW);
 
         // ввести панель во фрейм
         add(buttonPanel);
