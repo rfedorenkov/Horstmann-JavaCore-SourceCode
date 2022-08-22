@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * A panel with calculator buttons and a result display.
+ * Панель с кнопками калькулятора и отображением результатов.
  */
 public class CalculatorPanel extends JPanel {
     private JButton display;
