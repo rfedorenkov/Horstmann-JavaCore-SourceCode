@@ -1,6 +1,5 @@
 package corejava.v1ch09.priorityQueue;
 
-import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.PriorityQueue;
