@@ -8,6 +8,10 @@
     <artifactId>Horstmann-JavaCore-SourceCode</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <directory>out</directory>
+    </build>
+
     <properties>
         <java.version>13</java.version>
         <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
