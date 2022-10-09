@@ -1,5 +1,6 @@
 package corejava.v2ch04.mail;
 
+
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Session;
@@ -51,9 +52,12 @@ public class MailTest {
         message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
         message.setSubject(subject);
         message.setText(builder.toString());
-        try (Transport tr = mailSession.getTransport()) {
+        Transport tr = mailSession.getTransport();
+        try {
             tr.connect(null, password);
             tr.sendMessage(message, message.getAllRecipients());
+        } finally {
+            tr.close();
         }
     }
 }
