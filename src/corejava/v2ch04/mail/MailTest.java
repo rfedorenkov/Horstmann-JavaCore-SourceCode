@@ -16,7 +16,9 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * This program shows how to use JavaMail to send mail messages.
+ * В этой программе демонстрируется применение прикладного
+ * программного интерфейса JavaMail API для отправки сообщений
+ * по электронной почте
  * @author Cay Horstmann
  * @version 1.00 2012-06-04
  */
